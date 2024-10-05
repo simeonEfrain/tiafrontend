@@ -1,0 +1,72 @@
+/* NormativasList.css */
+.normativas-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .normativas-table th, .normativas-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .create-button, .edit-button, .delete-button {
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #61dafb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-button {
+    float: right;
+  }
+  
+  .delete-confirmation {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .delete-confirmation p {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .delete-confirmation button {
+    padding: 10px 15px;
+    margin: 5px;
+  }
+  
+  /* Modal */
+  .modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background-color: #3a3a3a;
+    padding: 20px;
+    border-radius: 8px;
+    color: #f0f0f0;
+  }
+  
+  .modal-content h2 {
+    color: #61dafb;
+  }
+  
